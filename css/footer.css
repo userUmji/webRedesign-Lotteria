@@ -1,10 +1,8 @@
 @charset "UTF-8";
-/* Import Local SCSS Files */
-/* color */
+/* Import Local SCSS Files */ /* color */
 /* fonts */
 /* font size */
-/* Import Local SCSS Files */
-/* color */
+/* Import Local SCSS Files */ /* color */
 /* fonts */
 /* font size */
 /* Reset */
@@ -197,7 +195,8 @@ textarea[disabled] {
 footer .footer-inner {
   width: 100%;
   padding: 40px;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 footer .footer-inner .footer-main {
   height: 220px;
@@ -224,6 +223,7 @@ footer .footer-inner .footer-main .footer-btn {
   padding: 15px;
   font-size: 1.2rem;
   border-radius: 15px;
+  -webkit-transition: 0.3s;
   transition: 0.3s;
 }
 footer .footer-inner .footer-main .footer-btn:hover {

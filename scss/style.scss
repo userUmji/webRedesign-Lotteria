@@ -1076,6 +1076,9 @@ body {
 }
 
 @media (max-width: 480px){
+  html{
+    overflow-x: hidden;
+  }
   .left-wrap, .right-wrap{
     display: none;
   }
@@ -1290,5 +1293,4 @@ body {
       }
     }
   }
-  
 }
